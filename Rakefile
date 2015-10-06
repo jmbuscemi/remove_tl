@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "remove_tl"
   gem.homepage = "http://github.com/jmbuscemi/remove_tl"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Remove Turbolinks from a rails app}
+  gem.description = %Q{Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app.}
   gem.email = "jmbuscemi@gmail.com"
   gem.authors = ["John M Buscemi"]
   # dependencies defined in Gemfile
