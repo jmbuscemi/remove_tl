@@ -27,6 +27,7 @@ module RemoveTl
         tmp.close
         # Move temp file to origin
         FileUtils.mv(tmp.path, 'app/assets/javascripts/application.js')
-      end    end
+      end
+    end
   end
 end
