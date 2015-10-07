@@ -1,4 +1,4 @@
-class RemoveGenerator < Rails::Generators::Base
+class RemoveTlGenerator < Rails::Generators::Base
   require 'tempfile'
 
   def remove_turbolinks_from_layout
