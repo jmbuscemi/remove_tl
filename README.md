@@ -3,20 +3,20 @@
 Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app. It's a little snarky...I know.
 
 ## How to Use
-1. Add this to Gemfile with:
+1. Add to Gemfile with:
 
   ```ruby
   gem 'remove_tl'
   ```
 
-2. Run the Bundle command to install it
+2. Run the Bundle command to install it.
 3. After gem is installed run the generator:
 
   ```
   rails generate remove_tl
   ```
 
-4. Your app is now Turbolinks free...your FE engineers won't be confused as to why none of their JS is working properly.
+4. Your app is now Turbolinks free...your FE engineers won't be confused as to why none of their JS is working properly.  Well, from a Turbolinks perspective at least ;-) 
 
 
 ## Contribute to this gem
