@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/generators/remove_tl_generator.rb",
     "lib/remove_tl.rb",
+    "remove_tl.gemspec",
     "test/helper.rb",
     "test/test_remove_tl.rb"
   ]
