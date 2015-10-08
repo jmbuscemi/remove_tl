@@ -1,6 +1,6 @@
 # Remove Turbolinks
 
-Turbolinks can cause JS troubles in a rails app, unless properly used. It's a little snarky, I know, but this is a simple gem to remove everything related to turbolinks from a rails app.
+Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app. It's a little snarky...I know.
 
 ## How to Use
 1. Add this to Gemfile with:
