@@ -26,5 +26,4 @@ class RemoveTlGenerator < Rails::Generators::Base
     # Move temp file to origin
     FileUtils.mv(tmp.path, 'app/assets/javascripts/application.js')
   end
-  
 end
