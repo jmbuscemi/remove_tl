@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["John M Buscemi"]
   s.date = "2015-11-06"
-  s.description = "Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app."
+  s.description = "Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a Rails 4 app."
   s.email = "jmbuscemi@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,6 +34,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/jmbuscemi/remove_tl"
   s.licenses = ["MIT"]
+  s.required_ruby_version = Gem::Requirement.new(["< 2.2.3", ">= 2.2.0"])
   s.rubygems_version = "2.4.5"
   s.summary = "Remove Turbolinks from a rails app"
 
