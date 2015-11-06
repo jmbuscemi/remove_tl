@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["John M Buscemi"]
-  s.date = "2015-10-08"
-  s.description = "Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app.  NOTE: This gem was made for Rails <= 4.2.4"
+  s.date = "2015-11-06"
+  s.description = "Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app."
   s.email = "jmbuscemi@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -61,3 +61,4 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>, ["~> 0"])
   end
 end
+
