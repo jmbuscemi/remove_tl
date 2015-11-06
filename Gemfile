@@ -5,7 +5,7 @@ source "http://rubygems.org"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
-ruby '>= 2.2.0', '< 2.2.3'
+ruby '2.2.2'
 
 group :development do
   gem "minitest", ">= 5.0.3"
