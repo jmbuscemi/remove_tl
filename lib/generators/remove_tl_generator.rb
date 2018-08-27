@@ -4,7 +4,7 @@ class RemoveTlGenerator < Rails::Generators::Base
   def remove_turbolinks_from_layout
     file_name = './app/views/layouts/application.html.erb'
     text = File.read(file_name)
-    new_contents = text.gsub(/, 'data-turbolinks-track' => true/, "")
+    new_contents = text.gsub(/, 'data-turbolinks-track': 'reload'/, "")
     #Write changes to the file, use:
     File.open(file_name, "w") {|file| file.puts new_contents }
   end
