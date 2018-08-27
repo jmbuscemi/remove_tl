@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a Rails 4 app.}
   gem.email = "jmbuscemi@gmail.com"
   gem.authors = ["John M Buscemi"]
-  gem.required_ruby_version = ['>= 2.2.0', '< 2.2.3']
+  gem.required_ruby_version = ['~> 2.5.0']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

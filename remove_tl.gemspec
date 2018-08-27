@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/jmbuscemi/remove_tl".freeze
   s.licenses = ["MIT".freeze]
-  s.required_ruby_version = Gem::Requirement.new(["< 2.2.3".freeze, ">= 2.2.0".freeze])
+  s.required_ruby_version = Gem::Requirement.new(['~> 2.5.0'.freeze])
   s.rubygems_version = "2.7.7".freeze
   s.summary = "Remove Turbolinks from a rails app".freeze
 
@@ -65,4 +65,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rails>.freeze, ["~> 5.2.1"])
   end
 end
-
