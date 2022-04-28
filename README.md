@@ -1,3 +1,6 @@
+# DEPRECATED AND NOT MAINTAINED
+I don't maintain this gem any more.
+
 # Remove Turbolinks
 
 Turbolinks can cause JS troubles in a rails app, unless properly used. This is a simple gem to remove everything related to turbolinks from a rails app. It's a little snarky...I know.
